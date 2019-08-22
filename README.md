@@ -46,6 +46,13 @@ Then configure the rules you want to use under the rules section.
 * Fill in provided rules here
 
 
+## Note
+1. we support typescript by default, so make sure you have `tsconfig.json` in the same directory of `eslintrc.js`, as we set the parser config 
+```
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+``` 
 
 
 
