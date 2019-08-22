@@ -20,24 +20,13 @@ $ npm install eslint-plugin-xxx-eslint --save-dev
 
 ## Usage
 
-Add `xxx-eslint` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+configure the rules you want to use under the rules section.
 
 ```json
 {
-    "plugins": [
-        "xxx-eslint"
-    ]
-}
-```
-
-
-Then configure the rules you want to use under the rules section.
-
-```json
-{
-    "rules": {
-        "xxx-eslint/rule-name": 2
-    }
+  "extends": [
+    "plugin:xxx-eslint/recommended"
+  ]
 }
 ```
 
