@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-xxx-eslint",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eslint plugin for xxx",
   "keywords": [
     "eslint",
@@ -33,7 +33,8 @@
     "eslint-plugin-unicorn": "^10.0.0",
     "mocha": "^3.1.2",
     "prettier": "1.18.2",
-    "requireindex": "~1.1.0"
+    "requireindex": "~1.1.0",
+    "typescript": "^3.5.3"
   },
   "devDependencies": {},
   "engines": {
