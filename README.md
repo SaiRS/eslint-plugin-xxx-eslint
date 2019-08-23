@@ -78,6 +78,7 @@ configArrayFactoryModule.ConfigArrayFactory.prototype._loadPlugin = function(nam
   }
 }
 ```
+so that we can simply install `eslint-plugin-xxx-eslint` without install other pakcages that relied by this plugin.
 
 
 
