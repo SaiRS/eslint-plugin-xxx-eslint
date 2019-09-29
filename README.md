@@ -7,7 +7,7 @@ eslint plugin for xxx
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint @typescript-eslint/eslint-plugin eslint-config-prettier eslint-import-resolver-webpack eslint-plugin-compat eslint-plugin-html eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-unicorn --save-dev
+$ npm i eslint @typescript-eslint/eslint-plugin eslint-config-prettier eslint-import-resolver-webpack eslint-plugin-compat eslint-plugin-html eslint-plugin-import eslint-plugin-jest eslint-plugin-node eslint-plugin-prettier eslint-plugin-promise eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-unicorn eslint-plugin-eslint-comments --save-dev
 
 ```
 
