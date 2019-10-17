@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-xxx-eslint",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "eslint plugin for xxx",
   "keywords": [
     "eslint",
