@@ -28,8 +28,8 @@ module.exports = {
   extends: ['plugin:xxx-eslint/recommended'],
   overrides: [
     {
-      files: ['*.js', '*.jsx'],
-      ...require('eslint-plugin-xxx-eslint').typescript,
+      files: ['*.ts', '*.tsx'],
+      ...require('eslint-plugin-xxx-eslint').configs.typescript,
     },
   ],
 };
