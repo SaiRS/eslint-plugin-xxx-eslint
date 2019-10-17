@@ -25,6 +25,7 @@ configure the rules you want to use under the rules section.
 
 ```js
 module.exports = {
+  parser: '@typescript-eslint/parser',
   extends: ['plugin:xxx-eslint/recommended'],
   overrides: [
     {
