@@ -29,7 +29,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.js', '*.jsx'],
-      ...require('exlint-plugin-xxx-eslint/typescript'),
+      ...require('eslint-plugin-xxx-eslint').typescript,
     },
   ],
 };
