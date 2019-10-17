@@ -23,16 +23,16 @@ $ npm install eslint-plugin-xxx-eslint --save-dev
 
 configure the rules you want to use under the rules section.
 
-```json
-{
-  "extends": [
-    "plugin:xxx-eslint/recommended"
+```js
+module.exports = {
+  extends: ['plugin:xxx-eslint/recommended'],
+  overrides: [
+    {
+      files: ['*.js', '*.jsx'],
+      ...require('exlint-plugin-xxx-eslint/typescript'),
+    },
   ],
-  "parserOptions": {
-    // you can change this to a real path of tsconfig.json
-    "project": "./tsconfig.json"
-  },
-}
+};
 ```
 
 ## Supported Rules
